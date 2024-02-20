@@ -420,7 +420,6 @@ section {
   border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(163,163,163);
   text-align: center;
-  justify-content: center;
 }
 
 .section-container{
@@ -436,9 +435,8 @@ section {
 }
 
 .about-text{
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-bottom: 4rem;
-  text-align: center;
 }
 
 /*SKILLS*/

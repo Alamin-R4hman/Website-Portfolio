@@ -1,0 +1,124 @@
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* 2xl */
+  @media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+
+    iframe{
+        width: 1490px;
+        height: 500px;
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 20px;
+      }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+
+    iframe{
+        width: 1200px;
+        height: 500px;
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 20px;
+      }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+
+    iframe{
+        width: 950px;
+        height: 500px;
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 20px;
+      }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+
+    iframe{
+        width: 700px;
+        height: 600px;
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 20px;
+      }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+
+    iframe{
+        width: 600px;
+        height: 500px;
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 20px;
+      }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+
+    iframe{
+        width: 400px;
+        height: 500px;
+        position: relative;
+        padding-left: 2rem;
+        padding-top: 20px;
+      }
+  }
+
+  @media screen and (max-width: 1400px) {
+    #profile{
+      height: 83vh;
+      margin-bottom: 2rem;
+    }
+    .about-containers{
+      flex-wrap: wrap;
+    }
+  
+    #experience, .experience-details-container{
+      margin-top: 2rem;
+    }
+  
+    #profile{
+      margin-bottom: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+   
+  
+  #burger-nav {
+    display: flex;
+    z-index: 1;
+    }
